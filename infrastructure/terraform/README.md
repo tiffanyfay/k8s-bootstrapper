@@ -50,9 +50,8 @@ Follow the below steps to get started:
     List Kubernetes versions that can be used with DigitalOcean clusters.
 
     ```console
-    doctl k8s options versions
-    ```
-    ```bash
+    $ doctl k8s options versions
+
     Slug           Kubernetes Version    Supported Features
     1.29.1-do.0     1.29.1                cluster-autoscaler, docr-integration, ha-control-plane, token-authentication
     1.28.6-do.0     1.28.6                cluster-autoscaler, docr-integration, ha-control-plane, token-authentication
