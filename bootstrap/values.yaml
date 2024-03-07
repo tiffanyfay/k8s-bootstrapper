@@ -9,9 +9,9 @@ guestbook:
 kyverno:
   enable: false  
 logging:
-  enable: false
+  enable: true
 observability:
-  enable: false
+  enable: true
   pdkey:
   storageSize: 50Gi
   retention: 5d

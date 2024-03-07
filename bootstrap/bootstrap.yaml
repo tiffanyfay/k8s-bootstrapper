@@ -10,8 +10,8 @@ spec:
   project: default
   source:
     path: bootstrap
-    repoURL: https://github.com/hivenetes/k8s-bootstrapper
-    targetRevision: HEAD
+    repoURL: https://github.com/tiffanyfay/k8s-bootstrapper
+    targetRevision: image-gen-demo
   syncPolicy:
     automated:
       selfHeal: true
